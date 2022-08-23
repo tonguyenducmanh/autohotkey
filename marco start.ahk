@@ -9,3 +9,6 @@ return
 
 PgDn:: ^#Right
 return
+
+home:: f5
+return
