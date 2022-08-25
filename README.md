@@ -1,0 +1,1 @@
+file script autohotkey có tác dụng tạo macro cho phim page up để di chuyển sang desktop trái và page down để di chuyển sang desktop phải

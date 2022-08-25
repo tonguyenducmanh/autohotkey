@@ -3,12 +3,14 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
+; gán chức năng phím page up thành tổ hợp phím ctrl + window + Left
+; tác dụng di chuyển sang desktop trái
 
 PgUp:: ^#Left
 return
 
-PgDn:: ^#Right
-return
 
-home:: f5
+; gán chức năng phím page down thành tổ hợp phím ctrl + window + Right
+; tác dụng di chuyển sang desktop phải
+PgDn:: ^#Right
 return
