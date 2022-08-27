@@ -14,3 +14,7 @@ return
 ; tác dụng di chuyển sang desktop phải
 PgDn:: ^#Right
 return
+
+; tắt tính năng đổi layout bàn phím mặc định
+#space::
+return
