@@ -18,3 +18,7 @@ return
 ; tắt tính năng đổi layout bàn phím mặc định
 #space::
 return
+
+; mở context menu bằng phím print screen 
+PrintScreen::<+F10
+return
