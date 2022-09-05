@@ -19,8 +19,8 @@ return
 #space::
 return
 
-; mở context menu bằng phím print screen 
-PrintScreen::<+F10
+; thay thế phím PrintScreen bằng phím F5
+PrintScreen::F5
 return
 
 ; ấn nút Insert để tắt màn hình
