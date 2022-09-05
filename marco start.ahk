@@ -22,3 +22,7 @@ return
 ; mở context menu bằng phím print screen 
 PrintScreen::<+F10
 return
+
+; ấn nút Insert để tắt màn hình
+Insert:: Run "D:\programfiles\ScreenOff 2.1.exe"
+return
