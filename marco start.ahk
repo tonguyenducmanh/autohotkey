@@ -19,10 +19,10 @@ return
 #space::
 return
 
-; thay thế phím PrintScreen bằng phím F5
-PrintScreen::F5
+; thay thế phím PrintScreen bằng phím F8 => dùng để debug trong chrome
+PrintScreen::F8
 return
 
-; ấn nút Insert để tắt màn hình
-Insert:: Run "D:\programfiles\ScreenOff 2.1.exe"
+; ấn nút Insert để thay thế F5 => dùng để refresh trang hoặc thực thi câu lệnh query
+Insert::F5
 return
