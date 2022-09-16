@@ -20,9 +20,9 @@ return
 return
 
 ; thay thế phím PrintScreen bằng phím F8 => dùng để debug trong chrome
-PrintScreen::F8
+PrintScreen::Volume_Up
 return
 
-; ấn nút Insert để thay thế F5 => dùng để refresh trang hoặc thực thi câu lệnh query
-Insert::F5
+; ấn nút Insert để thay thế Ctrl + F5 để bulid ứng dụng visual studio
+Insert::Volume_Down
 return
