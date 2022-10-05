@@ -15,6 +15,18 @@ return
 PgDn:: ^#Right
 return
 
+; gán chức năng phím num7 thành tổ hợp phím ctrl + window + Left
+; tác dụng di chuyển sang desktop trái
+
+Numpad7:: ^#Left
+return
+
+
+; gán chức năng phím num8 thành tổ hợp phím ctrl + window + Right
+; tác dụng di chuyển sang desktop phải
+Numpad8:: ^#Right
+return
+
 ; gán chức năng phím cạnh bên chuột trái 1 thành tổ hợp phím ctrl + window + Left
 ; tác dụng di chuyển sang desktop trái
 
@@ -30,6 +42,10 @@ return
 ; tắt tính năng đổi layout bàn phím mặc định
 #space::
 return
+;
+NumLock::
+return
+;
 
 ; thay thế phím PrintScreen bằng phím F8 => dùng để debug trong chrome
 PrintScreen::F8
