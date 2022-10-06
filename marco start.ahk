@@ -15,16 +15,21 @@ return
 PgDn:: ^#Right
 return
 
-; gán chức năng phím num7 thành tổ hợp phím ctrl + window + Left
+; gán chức năng phím NumpadSub thành tổ hợp phím ctrl + window + Left
 ; tác dụng di chuyển sang desktop trái
 
-Numpad7:: ^#Left
+NumpadSub:: ^#Left
 return
 
 
-; gán chức năng phím num8 thành tổ hợp phím ctrl + window + Right
+; gán chức năng phím NumpadAdd thành tổ hợp phím ctrl + window + Right
 ; tác dụng di chuyển sang desktop phải
-Numpad8:: ^#Right
+NumpadAdd:: ^#Right
+return
+
+
+; gán chức năng phím NumpadEnter thành phím end
+NumpadEnter:: End
 return
 
 ; gán chức năng phím cạnh bên chuột trái 1 thành tổ hợp phím ctrl + window + Left
@@ -41,9 +46,6 @@ return
 
 ; tắt tính năng đổi layout bàn phím mặc định
 #space::
-return
-;
-NumLock::
 return
 ;
 
